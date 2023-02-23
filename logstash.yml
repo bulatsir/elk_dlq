@@ -1,0 +1,3 @@
+#for enabling dlq queue path
+dead_letter_queue.enable: true
+path.dead_letter_queue: "/usr/share/logstash/data/dead_letter_queue"
